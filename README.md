@@ -50,3 +50,8 @@ untuk dapat menjalankan program kita harus menginstal interpreter pyhton dan lib
   | baris      | kata kunci untuk baris pada matriks augmented  |
 
 * Jika masih bingung lihat contoh file test pada folder Data Uji
+
+
+## **Catatan**
+*Jika ingin menjalankan program buka folder 'Program-Persamaan-Linear-main' di terminal atau di code editor. 
+*Jika menggunakan terminal untuk membuka folder maka ketikkan python 'Source Code'/Main.py pada terminal. Pada os linux atau macos ganti python dengan python3
