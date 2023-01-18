@@ -1,0 +1,8 @@
+n_var 3
+n_pers 3
+
+var a b c
+
+baris 1 2 3 2
+baris 4 5 6 3
+baris 7 8 9 4
