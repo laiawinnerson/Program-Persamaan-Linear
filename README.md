@@ -1,6 +1,6 @@
 # PROGRAM SISTEM PERSAMAAN LINEAR
 
-Program ini adalah program berbasis konsol untuk menyelesaikan sistem persamaan linear dengan menggunakan dua metode yakni gauss dan gauss-jordan. Program ini ditulis dalam bahasa pyhton
+Program ini adalah program berbasis konsol untuk menyelesaikan sistem persamaan linear(SPL) dengan menggunakan dua metode yakni gauss dan gauss-jordan. Program ini ditulis dalam bahasa pyhton. Hasil akhir dari program berupa data-data SPL, solusi dari SPL dalam bentuk matriks augmented dan jenis solusi SPL.
 
 ## **Persiapan**
 Untuk dapat menjalankan program ini, instal interpreter pyhton dan library numpy terlebih dahulu.
