@@ -1,9 +1,0 @@
-n_var 5
-n_pers 4
-
-var p q r s t
-
-baris 1 7 -2 0 8 -3
-baris 1 7 -1 1 0 2
-baris 2 14 -4 1 -13 3
-baris 2 14 -4 0 16 6
