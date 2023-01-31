@@ -1,16 +1,9 @@
 # PROGRAM SISTEM PERSAMAAN LINEAR
 
-Program ini adalah program untuk menyelesaikan sistem persamaan linear dengan menggunakan dua metode yakni gauss dan gauss jordan. Input dapat melalui keyboard ataupun input dengan file .txt. Keluaran berupa solusi dari sistem persamaan linear yang diinputkan.
+Program ini adalah program berbasis konsol untuk menyelesaikan sistem persamaan linear dengan menggunakan dua metode yakni gauss dan gauss-jordan. Program ini ditulis dalam bahasa pyhton
 
-## **Struktur Folder**
-### 1. Data Uji
-Berisi file test bereksistensi .txt. File tersebut berisi bagian-bagian dari SPL yang hendak dicari solusinya. File .txt terdiri dari variabel dan persamaan linearnya namun dalam bentuk matriks augmented. Pada folder ini juga nantinya solusi untuk SPL akan ditulis.
-
-### 2. Source Code
-Berisi source code program sistem persamaan liner
-
-## **Instalasi**
-untuk dapat menjalankan program kita harus menginstal interpreter pyhton dan library numpy terlebih dahulu
+## **Persiapan**
+Untuk dapat menjalankan program ini, instal interpreter pyhton dan library numpy terlebih dahulu.
 ### 1. Windows
 * Download interpreter pyhton untuk windows di https://www.python.org/
 * Buka file instalasi dengan double click lalu instal interpreter python
@@ -36,22 +29,3 @@ untuk dapat menjalankan program kita harus menginstal interpreter pyhton dan lib
     ```
       pip install numpy
     ```
-
-## **Tutorial Membuat File Test**
-* Pertama buat file test bereksitensi .txt dan letakkan di folder Data Uji
-* Buka file test lalu tuliskan nilai-nilai yang menggambar SPL, yaitu : banyak varibel, banyak persamaan, variabel, dan persamaan SPL dalam bentuk matriks augmented
-* Tuliskan kata kunci terlebih dahulu sebelum menulis suatu nilai. Berikut beberapa aturan kata kunci.
-
-  | Kata kunci | Kegunaan                           |
-  | -----      | ---                                |
-  | n_var      | kata kunci untuk banyak variabel   |
-  | n_pers     | kata kunci untuk banyak persamaan  |
-  | var        | kata kunci untuk banyak persamaan  |
-  | baris      | kata kunci untuk baris pada matriks augmented  |
-
-* Jika masih bingung lihat contoh file test pada folder Data Uji
-
-
-## **Catatan**
-* Jika ingin menjalankan program buka folder 'Program-Persamaan-Linear-main' di terminal atau di code editor. 
-* Jika menggunakan terminal untuk membuka folder maka ketikkan python 'Source Code'/Main.py pada terminal. Pada os linux atau macos ganti python dengan python3
