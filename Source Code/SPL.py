@@ -1,19 +1,17 @@
 import numpy as np
 
 class SPL :
-    n_var = 0
-    n_pers = 0
-    matriks_awal = []
-    matriks_akhir = []
-    var = []
-
-    unik = False
-    tak_terbatas = False
-    tak_ada = False
-
     def __init__(self, banyak_persamaan:int, banyak_variable:int):
         self.n_pers = banyak_persamaan
         self.n_var = banyak_variable
+        
+        self.matriks_awal = []
+        self.matriks_akhir = []
+        self.var = []
+
+        self.unik = False
+        self.tak_terbatas = False
+        self.tak_ada = False
     
     def input_data_spl(self):
         print(f"Inputkan variabel dalam bentuk {self.n_var}x1")
